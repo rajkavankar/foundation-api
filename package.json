@@ -1,0 +1,30 @@
+{
+  "name": "foundation-api",
+  "version": "1.0.0",
+  "description": "Backend api for foundation or ngo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "api"
+  ],
+  "author": "Raj kavankar",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nodemailer": "^6.9.8",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  }
+}
